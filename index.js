@@ -74,9 +74,6 @@ async function run() {
           const result = await BookingCollection.updateOne(query, updateDoc);
           res.send(result)
          
-
-         
-         
       })
 
       app.delete('/booking/:id', async(req, res)=>{
